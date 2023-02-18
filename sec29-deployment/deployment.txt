@@ -1,0 +1,38 @@
+
+
+** static host 
+ 
+ 서버 사이드 코드 없이 실행되는 코드 
+
+ html + js + css 만으로만 되어 있음
+
+이 파일들에 필요한 데이터를 다룰 서버는 클라우드 서버를 이용함
+
+ex) AWS,  S3,  Firebase
+
+ **  dynamic host 
+
+ 서버 코드가 있음
+ 
+ 위 파일들 + node.js 까지
+ 서버사이드 코드로 파일들을 실행함
+
+ ex) AWS Elastic Beanstalk, Heroku
+
+
+
+Deployment Step
+
+1 코드짜고 개발
+
+2 코드 테스트
+
+3  1과 2 반복
+
+4 최적화
+
+5 상용화를 위한 빌드 (코드 ui/ux 고려하고 페이지의 크기 최대한 줄이고 )
+
+6  4와 5 반복 
+
+7 배포
